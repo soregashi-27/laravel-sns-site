@@ -11,6 +11,11 @@
 
 This repository don't make a develop branch. Because I just train for development using laravel. So I use repository master and feature.
 
+Check out laravel ver.
+```
+php artisan -V
+```
+
 
 ## About Laravel
 
