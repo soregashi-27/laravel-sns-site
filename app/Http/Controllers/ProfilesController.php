@@ -2,12 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\User;
+use Illuminate\Http\Request; 
 
 class ProfilesController extends Controller
 {
-    public function index()
+    public function index($user)
     {
-        return view('home');
+        // dd(User::find($user));
+        // dump or die
+        $user = User::find($user);
+
+        return view('home', [
+            'user' => $user,
+        ]);
     }
-}
+} 
