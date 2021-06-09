@@ -1,3 +1,5 @@
+**※ReadMeは編集中**
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -11,10 +13,21 @@
 
 This repository don't make a develop branch. Because I just train for development using laravel. So I use repository master and feature.
 
-Check out laravel ver.
+・Check out laravel ver.
 ```
 php artisan -V
 ```
+
+・Start up local server.
+```
+php artisan serve
+```
+
+・Debug | When you start up local server, you are able to use this commnand.
+```
+php artisan tinker
+```
+
 
 
 ## About Laravel
